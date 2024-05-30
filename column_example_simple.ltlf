@@ -1,0 +1,1 @@
+((c0) & G(((right | left) & !(right & left)) & ((c0 | c1 | c2) & !(c0 & c1) & !(c0 & c2) & !(c1 & c2) & !(c0 & c1 & c2)) & (((c0 & right) -> (X c1)) & ((c1 & right) -> (X c2)) & ((c2 & right) -> (X c2)) & ((c2 & left) -> (X c1)) & ((c1 & left) -> (X c0)) & ((c0 & left) -> (X c0))))) -> F(c2)
